@@ -1,0 +1,8 @@
+Flask==2.3.3
+python-dotenv==1.0.1
+pymongo==4.6.3
+werkzeug==3.0.3
+PyJWT==2.8.0
+Flask-Cors==4.0.0
+dnspython==2.6.1  # Needed for MongoDB SRV URIs
+gunicorn==21.2.0  # For production WSGI server on Render
