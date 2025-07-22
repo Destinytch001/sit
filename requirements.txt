@@ -1,8 +1,26 @@
-Flask==2.3.3
-python-dotenv==1.0.1
-pymongo==4.6.3
-werkzeug==3.0.3
-PyJWT==2.8.0
+# Core Flask & Web
+Flask==3.0.2
 Flask-Cors==4.0.0
-dnspython==2.6.1  # Needed for MongoDB SRV URIs
-gunicorn==21.2.0  # For production WSGI server on Render
+Flask-PyMongo==2.3.0
+python-dotenv==1.0.1
+gunicorn==21.2.0
+
+# Database & Data Handling
+pymongo==4.6.1
+dnspython==2.5.0
+
+# Authentication & Security
+PyJWT==2.8.0
+werkzeug==3.0.1
+bcrypt==4.1.2
+
+# File Handling & Cloud Storage
+cloudinary==1.37.0
+requests==2.31.0
+
+# Date/Time Handling
+pytz==2023.3.post1
+
+# Development Tools (optional)
+python-dateutil==2.8.2
+blinker==1.7.0
